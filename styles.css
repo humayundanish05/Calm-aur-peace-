@@ -1,1 +1,53 @@
 
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: radial-gradient(circle at top left, #1a1a2e, #16213e);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  resize: vertical;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #00adb5;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #007b83;
+}
+.mood-options button {
+  font-size: 24px;
+  margin: 5px;
+  padding: 10px;
+}
+#audioPlayer {
+  width: 100%;
+}
+#countdown {
+  font-size: 2em;
+  margin: 10px 0;
+}
